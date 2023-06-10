@@ -15,5 +15,6 @@ h1 {
 }
 
 header {
-  background-color: $midPrimary;
+  border-bottom: $secondaryBlack_opacity10 1px solid;
+  box-shadow: 0 2px 8px 1px $shadow;
 }

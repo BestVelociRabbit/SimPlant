@@ -9,9 +9,8 @@
   flex-direction: column;
   width: 30%;
   align-items: center;
+  margin: 2rem;
 
-  margin-left: 2rem;
-  margin-right: 2rem;
   button {
     border-radius: $borderRadius;
     width: 30%;
@@ -43,6 +42,14 @@
   width: 100%;
   font-family: 'Vegur';
   box-shadow: 0 2px 8px 1px $shadow;
+
+  button{
+    margin-top: 1rem;
+  }
+}
+
+.roomForm, .plantForm {
+  background-color: $lightPrimary;
 }
 
 select {
